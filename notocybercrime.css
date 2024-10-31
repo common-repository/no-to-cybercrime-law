@@ -1,0 +1,20 @@
+#cybercrime_mask {
+	z-index:9000;
+	background:#000;
+	top:0; left:0;
+}
+
+#cybercrime_window {
+	width:400px;
+	height:400px;
+	box-shadow:0px 0px 20px #000;
+	z-index:9001;
+}
+
+#cybercrime_window, #cybercrime_mask {
+	position:fixed;
+	display:none;
+	box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	-webkit-box-sizing:content-box;
+}
